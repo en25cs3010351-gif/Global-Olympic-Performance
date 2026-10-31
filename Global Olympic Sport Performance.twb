@@ -1253,8 +1253,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2600' minheight='2600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='23' param='vert' type-v2='layout-flow' w='99034' x='483' y='878'>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98244' id='27' param='vert' type-v2='layout-flow' w='99034' x='483' y='878'>
                 <zone fixed-size='254' h='32738' id='3' is-fixed='true' name='Male VS Female Participation Over Years' w='33005' x='483' y='878'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -1375,6 +1375,39 @@
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{E56D06E5-376F-4690-8DBE-594BB0872BB5}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='8' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Participation Trend of Male and Female' captured-sheet='Male VS Female Participation Over Years' id='1' />
+                  <story-point caption='Yearly Participation of Athlete' captured-sheet='Total Athlete by Year and Season ' id='2' />
+                  <story-point caption='Countries with Most Medals' captured-sheet='Top 10 Countries With Total Medals' id='3' />
+                  <story-point caption='Sports With Most Medals' captured-sheet='Top 10 Sports by Total Medals ' id='4' />
+                  <story-point caption='Weight and Height Corelation' captured-sheet='Weight and Height Corelation' id='5' />
+                  <story-point caption='Age Group Having Most Winners' captured-sheet='Age Distribution - Winners' id='6' />
+                  <story-point caption='Weight Category Having Most Winners' captured-sheet='Weight Distribution - Winners ' id='7' />
+                  <story-point caption='Height Category Havinf Most Winners' captured-sheet='Height Distribution - Winners ' id='8' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{5EBDA597-4587-4924-B696-BCA00DF3F158}' />
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
@@ -1686,7 +1719,7 @@
       </viewpoint>
       <simple-id uuid='{B5865D42-4401-4513-AAC9-F0B4F283504E}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Age Distribution - Winners'>
           <zoom type='entire-view' />
@@ -1728,6 +1761,11 @@
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{B39752F5-634F-40AB-A425-B7170828DCBB}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{0A132A99-6DC8-4A91-B7F9-C0771D7E81AB}' />
     </window>
   </windows>
   <thumbnails>
@@ -2279,6 +2317,106 @@
       7Afv0RXNwu5tIewtYMNd5bxz8jLBeAeegllsWLMstYa0w5u//hkrtuzgwBuvsmDlOs6+f5TF
       y1Zx/Mgh1m7aTlVZfmptORav/epl1m/Zxt4332Tpug001h+lesndHDt6lHu3PcrMwmwA/h9E
       2hb3JH7eqwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+      gcTU+n+2EyU1wfrwvAAAAABJRU5ErkJggg==
     </thumbnail>
     <thumbnail height='192' name='Top 10 Countries With Total Medals' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
